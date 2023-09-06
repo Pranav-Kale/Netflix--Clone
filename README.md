@@ -10,5 +10,4 @@ Pending things :
  
  2.Adding More Effects to it
  
- 3.Fixing the left-right movement of the banner
  
