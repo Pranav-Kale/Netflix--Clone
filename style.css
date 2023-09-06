@@ -309,9 +309,9 @@ header.black-bg{
 footer{
     height: 50vh;
     width: 100vw;
-/*     background-color: #000000; */
+    background-color: #000000;
     position: relative;
-    border: solid 5px #fff;
+/*     border: solid 5px #fff; */
 }
 
 
