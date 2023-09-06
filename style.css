@@ -21,8 +21,9 @@ html,body{
 
 .container{
     width: 100%;
-    max-width: 1070px;
+    max-width: 1350px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .header-cont{
@@ -135,8 +136,13 @@ header.black-bg{
     position: relative;
     margin: 41px 30px;
     width: 100vw;
-
 }
+
+.movies-cont{
+    margin-left: 10%;
+}
+
+
 .movie-section-heading{
     font-size : 20px;
     font-weight : 700;
@@ -186,21 +192,6 @@ header.black-bg{
     margin-right: 25px; 
      margin-left: 20px;
  } 
-
-.movie-item .iframe-wrap{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    display: none;
-    border: none;
-    outline: none;
-}
-.movie-item:hover .iframe-wrap{
-    display: block;
-} 
 
 
 /* Banner Section */
@@ -318,20 +309,10 @@ header.black-bg{
 footer{
     height: 50vh;
     width: 100vw;
-    background-color: #000000;
+/*     background-color: #000000; */
     position: relative;
     border: solid 5px #fff;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* ////////////////////////////////////////////////// */
@@ -346,28 +327,6 @@ footer{
         max-width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
